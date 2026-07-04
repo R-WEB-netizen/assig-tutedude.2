@@ -1,0 +1,119 @@
+1. Create a 1D NumPy array with integers from 1 to 20. Perform the following operations:  
+  a. Calculate the sum, mean, median, and standard deviation of the elements in the array.  
+  b. Find the indices of elements greater than 10 in the array.
+
+
+ step 1. write a library name (import numpy as np )
+ step 2. wirte a store data are given in assignment.
+ step 3. find sum
+ step 3. find mean
+ step 4. find median
+ step 5. find standard deviation
+ step 6. find indices of elements greater than 10.
+
+  
+2. Create a 2D NumPy array of shape 4 X 4 with numbers ranging from 1 to 16.  
+  a. Print the array.  
+  b. Find the transpose of the array.  
+  c. Calculate the row-wise and column-wise sums of the array.
+
+step 1. write a library name (import numpy as np )
+step 2. and we reshaped in 4*4
+step 3. we print 2D array of matrix
+step 4. then we find out the transpose of the array.
+step 5. and then calculate theh row-wise and column-wise sums of the array.
+
+
+3. Create two 3 X 3 arrays filled with random integers between 1 and 20.  
+       a. Perform element-wise addition, subtraction, and multiplication.  
+       b. Compute the dot product of the two arrays.
+
+    step 1.  write a library name (import numpy as np )
+    step 2. arr1 and arr1 two array random integer  number.
+    step 3. find addition
+    step 4. find subtraction
+    step 5. find multiplication.
+    step 6. find dot product of two stranger.
+
+
+4. Reshape a 1D array of size 12 into a 3 X 4 2D array and slice the first two rows and last two columns. 
+
+step 1. write a library name (import numpy as np )
+step 2. reshape a 1D array  of size 12 into a 3*4 2D array.
+step 3. then print the 2D array 
+step 4. First two rows: The first two rows of the array are:
+step 5. Last two columns: The last two columns of the array are:
+
+
+
+
+ASSIGNMENT-2 WORKING WITH PANDAS
+
+Objective Learn to create and manipulate dataframes for data analysis. 
+
+1. Create a DataFrame with the following data:  
+  
+
+
+  data = {
+      'Name': ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve'],
+      'Age': [24, 27, 22, 32, 29],
+      'Department': ['HR', 'Finance', 'IT', 'Marketing', 'HR'],
+      'Salary': [45000, 54000, 50000, 62000, 47000]
+  }
+  a. Print the first five rows of the DataFrame.  
+  b. Get the summary statistics of the 'Age' and 'Salary' columns.  
+  c. Calculate the average salary of employees in the 'HR' department.  
+
+
+2. Add a new column, 'Bonus', which is 10% of the salary.  
+
+
+3. Filter the DataFrame to show employees aged between 25 and 30.  
+
+
+4. Group the data by 'Department' and calculate the average salary for each department.  
+
+
+5. Sort the DataFrame by 'Salary' in ascending order and save the result to a new CSV file.  
+
+
+ASSIGNMENT-3  Working with Matplotlib
+
+
+Objective Practice data visualization techniques for better data representation.
+
+1. Create a simple line plot for the following data:
+  
+  x = [1, 2, 3, 4, 5]
+  y = [10, 15, 25, 30, 50]
+  
+  a. Plot the data.  
+  b. Customize the plot by adding a title, axis labels, and a grid.  
+
+
+
+
+2. Create a bar graph to represent the marks scored by students in a subject:  
+  
+  students = ['John', 'Jane', 'Alice', 'Bob']
+  marks = [75, 85, 60, 90]
+  
+  a. Plot the data as a bar graph.  
+  b. Customize the colors and add a title.  
+
+
+3. Create a pie chart to represent the percentage distribution of a company’s revenue from different regions:  
+  
+  regions = ['North America', 'Europe', 'Asia', 'Others']
+  revenue = [45, 25, 20, 10]
+  
+  a. Create a pie chart with the region names as labels.  
+  b. Highlight the region with the highest revenue.  
+
+
+4. Generate a histogram to show the frequency distribution of randomly generated integers between 1 and 100 (sample size = 1000).
+
+
+
+
